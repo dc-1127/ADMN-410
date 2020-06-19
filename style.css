@@ -1,0 +1,142 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*Nav bar*/
+
+
+nav{
+	background-color: #DAA520;
+	width: 100%;
+	height: 50px;
+}
+
+nav p {
+	font-family: cursive;
+	color: #f0f0f0;
+	float: left;
+	padding: 0px 40px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav ul{
+	float: right;
+
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a {
+	font-family: arial;
+	color: #f0f0f0;
+	display: block;
+	font-size: 15px;
+	padding: 5px 15px;
+	text-decoration: none;
+}
+
+nav ul li ul {
+	display: none;
+	position: absolute;
+	background-color: #DAA520;
+	padding: 9px;
+	border-radius: 0px 0px 4px 4px;
+
+}
+
+nav ul li:hover ul {
+	display: block;
+
+}
+
+nav ul li ul li a {
+	padding: 7px 15px;
+	
+}
+
+nav ul li ul li a:hover {
+	background-color: #CD853F;
+	
+}
+
+nav ul li ul li {
+	width: 130px;
+	border-radius: 4px;
+	
+}
+
+/*index*/
+
+.hinfo {
+	text-align: center;
+}
+
+.winfo {
+	text-align: center;
+
+}
+
+/*Employee.html*/
+
+.meet h2 {
+	text-align: center;
+}
+
+.images{
+    text-align:center;
+    margin:50px auto; 
+}
+.images a{
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+ }
+
+ .images a img{
+ 	width: 225px;
+ 	height: 250px;
+ }
+
+ .pinfo{
+ 	text-align: center;
+ }
+
+ .pinfo p{
+
+ }
+
+ #map iframe{
+ 	height: 450px;
+ 	width:100%;
+ }
+
+.office {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  text-align: center;
+}
+
+.supplies{
+    text-align:center;
+    margin:50px auto; 
+}
+.supplies a{
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+ }
+
+.supplies a img{
+	width: 225px;
+	height: 250px;
+}
